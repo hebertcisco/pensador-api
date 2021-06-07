@@ -49,6 +49,44 @@ Host: pensador-api.vercel.app
 
 `?term=[termo_de_pesquisa]&max=[maximo_de_resultados]`
 
+### Result
+
+```json
+{
+  "termoDePesquisa": "frases_de_jesus_cristo",
+  "total": 7,
+  "frases": [
+    {
+      "autor": "Jesus Cristo",
+      "texto": "E conhecereis a verdade e a verdade vos libertará."
+    },
+    {
+      "autor": "Jesus Cristo",
+      "texto": "Porque Deus amou o mundo de tal maneira que deu o seu Filho unigênito, para que todo aquele que n'Ele crê não pereça, mas tenha a vida eterna."
+    },
+    {
+      "autor": "Jesus Cristo",
+      "texto": "Pai, perdoa-lhes, porque não sabem o que fazem."
+    },
+    {
+      "autor": "Jesus Cristo",
+      "texto": "Eu sou a ressurreição e a vida. Quem crê em mim, ainda que morra, viverá; e quem vive e crê em mim nunca morrerá."
+    },
+    {
+      "autor": "Jesus Cristo",
+      "texto": "De que serve ao homem conquistar o mundo inteiro se perder a alma?"
+    },
+    {
+      "autor": "Jesus Cristo",
+      "texto": "Ame seus inimigos, faça o bem para aqueles que te odeiam, abençoe aqueles que te amaldiçoam, reze por aqueles que te maltratam. Se alguém te bater no rosto, ofereça a outra face."
+    },
+    {
+      "autor": "Jesus Cristo",
+      "texto": "Conselhos ruins podem acabar com um dia, um ano ou uma vida inteira."
+    }
+  ]
+}
+```
 ## Installation
 
 > Clone this repository: `git clone https://github.com/hebertcisco/pensador-api
