@@ -1,0 +1,8 @@
+{
+  "name": "vercel-typescript-ddd-api",
+  "description": "Vercel Typescript DDD api example",
+  "repository": "https://github.com/hebertcisco/vercel-typescript-ddd-api",
+  "keywords": [
+    "vercel-typescript-ddd-api"
+  ]
+}
