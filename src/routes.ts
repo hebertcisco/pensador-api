@@ -1,10 +1,10 @@
 import { Router } from 'express';
 
 import DefaultRouter from './domain/default.route';
-import ProductRouter from './domain/product/product.routes';
+import PhraseRouter from './domain/phrase/phrase.routes';
 
 const Routes = Router();
 
-Routes.use('/', DefaultRouter).use('/product', ProductRouter);
+Routes.use('/status', DefaultRouter).use('/', PhraseRouter);
 
 export default Routes;
