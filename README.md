@@ -28,6 +28,27 @@
 <p align="center"><strong>Frases vindas do Pensador via WebScraping</strong>✨</p>
 
 
+## Realizando uma consulta via Endpoint da API
+
+> Curl
+
+```sh
+curl --location --request GET 'https://pensador-api.vercel.app/?term=Jesus+Cristo&max=7'
+```
+
+> HTTP
+
+```http
+GET ?term=Jesus+Cristo&max=7 HTTP/1.1
+Host: pensador-api.vercel.app
+```
+
+> URL: [https://pensador-api.vercel.app/?term=Jesus+Cristo&max=7](https://pensador-api.vercel.app/?term=Jesus+Cristo&max=7)
+
+### Endpoint:
+
+`?term=[termo_de_pesquisa]&max=[maximo_de_resultados]`
+
 ## Installation
 
 > Clone this repository: `git clone https://github.com/hebertcisco/pensador-api
