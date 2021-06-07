@@ -1,5 +1,5 @@
 {
-  "name": "vercel-typescript-ddd-api",
+  "name": "pensador-api",
   "version": 2,
   "public": true,
   "builds": [

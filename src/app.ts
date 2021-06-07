@@ -5,13 +5,10 @@ import compression from 'compression';
 import bodyParser from 'body-parser';
 import morgan from 'morgan';
 
-import * as Mongo from './infra/database';
-
 import Routes from './routes';
 
 class App {
   express: express.Application;
-
   constructor() {
     this.initialize();
   }
@@ -29,7 +26,7 @@ class App {
       )
     );
     this.express.use(Routes);
-    Mongo;
+
   }
 }
 
