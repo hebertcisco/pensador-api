@@ -1,12 +1,8 @@
-import { Request, Response } from 'express';
-import runMiddleware from 'expmidd';
-import Cors from 'cors';
-const cors = Cors({
-  methods: ['GET'],
-});
+import type { Request, Response } from 'express';
+
 class StatusController {
   async show(req: Request, res: Response) {
-    await runMiddleware(req, res, cors);
+    void req;
     res.status(200);
     res.json({
       status: 'online',
