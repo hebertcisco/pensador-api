@@ -1,7 +1,7 @@
 import { Router } from 'express';
 
-import DefaultRouter from './domain/default.route';
-import PhraseRouter from './domain/phrase/phrase.routes';
+import DefaultRouter from './default.routes';
+import PhraseRouter from './phrase.routes';
 
 const Routes = Router();
 

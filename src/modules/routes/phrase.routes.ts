@@ -1,6 +1,6 @@
 import { Router } from 'express';
 
-import phraseController from './phrase.controller';
+import phraseController from '../controllers/phrase.controller';
 
 const PhraseRouter = Router();
 

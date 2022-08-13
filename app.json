@@ -1,6 +1,6 @@
 {
   "name": "pensador-api",
-  "description": "Vercel Typescript DDD api example",
+  "description": "Frases do Pensador via WebScraping",
   "repository": "https://github.com/hebertcisco/pensador-api",
   "keywords": [
     "pensador-api"

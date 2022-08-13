@@ -1,5 +1,4 @@
 node_modules
-node_modules
 .vercel
 .bin
 bin
@@ -7,3 +6,4 @@ package-lock.json
 yarn.lock
 yarn-error.log
 .env
+dist

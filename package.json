@@ -45,7 +45,7 @@
     "sucrase": "^3.24.0",
     "typescript": "^4.7.4"
   },
-  "description": "Vercel Typescript DDD api example",
+  "description": "Frases do Pensador via WebScraping",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hebertcisco/pensador-api.git"
