@@ -1,20 +1,51 @@
 ---
 name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: ''
+about: Suggest an idea or improvement for Pensador API
+title: "feat: <short summary>"
+labels: enhancement
 assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+## Summary
+What problem should this feature solve? Provide a concise description.
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+## Motivation / Use Case
+Who benefits and how? Describe the user story or scenario.
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+## Proposed Solution
+Describe the solution you’d like to see, at a high level first. Include any relevant examples.
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+## API Changes (if applicable)
+- Endpoints to add/change/deprecate:
+- Request/response examples:
+```http
+GET /api/... HTTP/1.1
+Accept: application/json
+```
+```json
+{
+  "example": true
+}
+```
+
+## Alternatives Considered
+List alternative solutions or approaches you evaluated and why they’re not preferred.
+
+## Breaking Changes
+Could this be breaking for existing users? If yes, describe mitigation or migration.
+
+## Additional Context
+Links, screenshots, prior art, related issues/PRs.
+
+## Acceptance Criteria
+- [ ] Clear API shape and behavior agreed
+- [ ] Tests or examples updated/added
+- [ ] Docs updated (README or reference docs)
+
+## Priority
+How important is this? low | medium | high (and why)
+
+## Checklist
+- [ ] I searched existing issues for similar requests.
+- [ ] I’m willing to help implement this (optional).

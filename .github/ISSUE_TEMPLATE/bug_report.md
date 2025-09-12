@@ -1,38 +1,58 @@
 ---
 name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
+about: Report a reproducible problem to help improve Pensador API
+title: "bug: <short summary>"
+labels: bug
 assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+## Overview
+Provide a clear, concise description of the bug. What went wrong?
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+## Impact
+How severe is this? e.g., blocks deploy, affects production, minor annoyance.
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+## Steps To Reproduce
+List exact steps to reproduce with the smallest possible example.
+1. Endpoint or path: `/...`
+2. Request example (code or curl):
+   ```bash
+   curl -s -X GET "https://<host>/api/..." -H "Accept: application/json"
+   ```
+3. Actual response/status:
+4. Any special preconditions/config:
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+## Expected Behavior
+What did you expect to happen?
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+## Actual Behavior
+What actually happened? Include error messages shown to users if any.
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+## Logs / Stack Traces
+Paste relevant logs, stack traces, or console output. Please sanitize secrets.
+```
+<logs here>
+```
 
-**Additional context**
-Add any other context about the problem here.
+## Environment
+- Package version (from `package.json` or `npm ls pensador-api`):
+- Node.js version (`node -v`):
+- OS and version:
+- Runtime: local | Docker | Vercel | other (specify)
+- If deployed (e.g., Vercel): region, project link (if possible)
+
+## Regression?
+Did this work before? If yes, which version/commit did it last work on?
+
+## Possible Solution
+Optional: any ideas, hypotheses, or pointers to where the bug may live.
+
+## Additional Context
+Screenshots, links, related issues, or anything else that helps.
+
+## Checklist
+- [ ] I searched existing issues and didn’t find a duplicate.
+- [ ] I can reproduce this with a minimal example.
+- [ ] I included expected vs. actual behavior and environment details.
+- [ ] I sanitized logs and removed secrets.
