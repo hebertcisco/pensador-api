@@ -16,7 +16,7 @@ By participating, you agree to uphold our [Code of Conduct](CODE_OF_CONDUCT.md).
 ## Before You Start
 
 - Search existing [issues](https://github.com/hebertcisco/pensador-api/issues) to avoid duplicates.
-- For security vulnerabilities, do not open a public issue. Email: tecnobertinfo@gmail.com
+- For security vulnerabilities, do not open a public issue. Email: <opensource@hotbrains.com.br>
 
 ## Development Setup
 
