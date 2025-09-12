@@ -2,7 +2,5 @@
   "name": "pensador-api",
   "description": "Frases do Pensador via WebScraping",
   "repository": "https://github.com/hebertcisco/pensador-api",
-  "keywords": [
-    "pensador-api"
-  ]
+  "keywords": ["pensador-api"]
 }

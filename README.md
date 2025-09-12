@@ -27,7 +27,6 @@
 
 <p align="center"><strong>Frases vindas do Pensador via WebScraping</strong>✨</p>
 
-
 ## Realizando uma consulta via Endpoint da API
 
 > Curl
@@ -87,6 +86,7 @@ Host: pensador-api.vercel.app
   ]
 }
 ```
+
 ## Installation
 
 > Clone this repository: `git clone https://github.com/hebertcisco/pensador-api

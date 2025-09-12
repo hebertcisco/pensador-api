@@ -8,9 +8,7 @@
       "request": "launch",
       "name": "Launch Program",
       "program": "${workspaceFolder}/src/server.ts",
-      "outFiles": [
-        "${workspaceFolder}/**/*.js"
-      ]
+      "outFiles": ["${workspaceFolder}/**/*.js"]
     }
   ]
 }

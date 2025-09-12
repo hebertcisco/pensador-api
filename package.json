@@ -7,7 +7,8 @@
     "prebuild": "rimraf dist",
     "build": "sucrase ./src -d ./dist --transforms typescript,imports",
     "pre-prod": "rimraf dist && sucrase ./src -d ./dist --transforms typescript,imports",
-    "dev": "nodemon src/server.ts"
+    "dev": "nodemon src/server.ts",
+    "format": "npx prettier --write ./**/*.{js,jsx,ts,tsx,md,json}"
   },
   "dependencies": {
     "body-parser": "^1.20.3",
