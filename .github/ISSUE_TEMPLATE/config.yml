@@ -1,0 +1,18 @@
+blank_issues_enabled: false
+
+# Customize the template chooser by adding helpful links.
+# Docs: https://docs.github.com/articles/configuring-issue-templates-for-your-repository#configuring-the-template-chooser
+contact_links:
+  - name: Questions & Help (Discussions)
+    url: https://github.com/hebertcisco/pensador-api/discussions
+    about: Ask questions or request support here.
+  - name: Contributing Guide
+    url: https://github.com/hebertcisco/pensador-api/blob/HEAD/CONTRIBUTING.md
+    about: Please read before opening issues or PRs.
+  - name: Code of Conduct
+    url: https://github.com/hebertcisco/pensador-api/blob/HEAD/CODE_OF_CONDUCT.md
+    about: Understand our community expectations.
+  - name: Report a security vulnerability (private)
+    url: https://github.com/hebertcisco/pensador-api/security/advisories/new
+    about: Please report security issues via GitHub Security Advisories.
+
